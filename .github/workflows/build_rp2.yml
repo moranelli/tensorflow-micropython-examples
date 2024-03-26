@@ -3,7 +3,7 @@ name: RP2
 
 # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#onschedule
 on:
-  push:
+  workflow_dispatch:
     paths-ignore:
       - 'examples/**'
       - 'README.md'
